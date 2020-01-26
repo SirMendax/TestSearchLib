@@ -1,0 +1,26 @@
+{
+  "name": "mendax/testsearchlib",
+  "description": "The lib searches substring in local or remote text using a naive algorithm or algorithm Rabin-Karp",
+  "keywords": ["PHP", "Search substr", "Rabin-Karp"],
+  "version": "1.0.0",
+  "homepage": "https://github.com/SirMendax/test_search",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Telegin K.I.",
+      "homepage": "https://vk.com/id256665521"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TestSearchLib\\src\\": "src"
+    }
+  },
+  "require": {
+    "php": "7.4",
+    "ext-yaml": "*",
+    "ext-fileinfo": "*",
+    "ext-curl": "*"
+  }
+}

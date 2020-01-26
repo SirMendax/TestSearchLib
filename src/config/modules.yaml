@@ -1,0 +1,10 @@
+#Modules for search substring in text
+searcher:
+  local: TestSearchLib\src\Modules\LocalModule
+  remote: TestSearchLib\src\Modules\RemoteModule
+#Algorithms for search substring in text
+algorithm:
+  hash: TestSearchLib\src\Algorithm\HashFind
+  naive: TestSearchLib\src\Algorithm\NaiveFind
+#Default sanitizer for input-data
+sanitizer: TestSearchLib\src\Sanitizer\DefaultSanitizer #TestSearchLib\src\Sanitizer\CustomSanitizer

@@ -1,0 +1,7 @@
+#Valid mime-type sheet
+mime-type:
+  - text/plain
+  - text/css
+  - text/html
+#Valid file-size
+max-size: 1048576
