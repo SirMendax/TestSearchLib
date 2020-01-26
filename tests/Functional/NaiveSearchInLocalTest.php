@@ -17,8 +17,9 @@ class NaiveSearchInLocalTest extends TestCase
     $file = __DIR__. "/test.txt";
 
     $searcher = App::builder('local', 'naive');
-    $result = $searcher->run($file, 'mendax');
-    $this->assertEquals(4, $result['line']);
+    $result = $searcher->run($file, 'port:8080 localhost:5432');
+    $this->assertEquals(41, $result['position']);
+    $this->assertEquals(1, $result['line']);
 
     $result = $searcher->run($file, 'ruby');
     $this->assertNull($result);

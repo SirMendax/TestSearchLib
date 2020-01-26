@@ -56,10 +56,6 @@ class RemoteModule implements SearchInterface
 
     $file = CurlContent::getCurl($url);
 
-    if($file['code'] === 404){
-      throw new NotFoundException('File not found');
-    }
-
     if (!$this->sanitizer->maxSize($file['size'])) {
       throw new SizeLimitException('Maximum file size is overtop');
     }

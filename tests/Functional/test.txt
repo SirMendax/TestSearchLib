@@ -1,7 +1,7 @@
 test url magento laravel symfony JIT JIR port:8080 localhost:5432 localhost:3601
 camel kent winston
 python typescript react vue.js js
-mendax dihauti kein
+mendax dihauti kein?
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto asperiores aspernatur autem cum
 cupiditate, dolor dolore esse ex facilis itaque iusto libero non perferendis perspiciatis quaerat totam voluptatibus.
 Quasi!
